@@ -1,0 +1,23 @@
+Package: miscav
+Type: Package
+Title: Miscellaneous functions for regular model analysis
+Version: 0.1.0
+Author: Alyssa M Vanderbeek
+Maintainer: Alyssa M Vanderbeek <vanderbeekam@gmail.com>
+Description: A collection of functions I developed to streamline analysis related to
+    linear models and correlation with longitudinal and/or repeated measures data.
+Depends:
+    R (>= 3.6.0)
+Imports:
+    tidyverse,
+    emmeans,
+    lme4,
+    boxcoxmix
+Suggests:
+    devtools,
+    roxygen2,
+    testthat
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.2
